@@ -1,59 +1,34 @@
-export const volumes = [
+export const mixes = [
   {
     slug: "time-is-away-the-colour-of-pomegranates",
+    date: "05.11.2023",
+    country: "Berlin",
     title: "time is away the colour of pomegranates",
     description:
       "This episode is inspired by the visionary world of Armenian filmmaker Sergei Parajanov. It draws on his 1969 masterpiece Sayat Nova, also known as The Colour of Pomegranates, a dreamlike poetic reimaginig of the life of the title character, an 18th-century poet and troubadour. ",
-    cover: "/images/the-fellowship-of-the-ring.png",
-    books: [
-      {
-        ordinal: "Book I",
-        title: "The Ring Sets Out",
-      },
-      {
-        ordinal: "Book II",
-        title: "The Ring Goes South",
-      },
-    ],
-    color: "#242C31",
+    cover: "/images/pomegranates.png",
+    tag: "AMBIENT",
   },
   {
-    slug: "the-two-towers",
-    title: "The Two Towers",
+    slug: "time-is-away-derek-jarman",
+    date: "05.11.2023",
+    country: "Berlin",
+    title: "Time Is Away - Derek Jarman: Prospect Cottage 1989",
     description:
-      "The Two Towers is the second volume of J. R. R. Tolkien's epic adventure The Lord of the Rings. It is preceded by The Fellowship of the Ring and followed by The Return of the King.",
-    cover: "/images/the-two-towers.png",
-    books: [
-      {
-        ordinal: "Book III",
-        title: "The Treason of Isengard",
-      },
-      {
-        ordinal: "Book IV",
-        title: "The Ring Goes East",
-      },
-    ],
-    color: "#532724",
+      "Towards the end of his life, visionary artist, filmmaker and activist Derek Jarman moved to Dungeness in Kent. There, on the shingle, around his small fisherman’s cottage, he created an iconic garden which has become a potent symbol of his legacy. This month Prospect Cottage and its garden were saved from a private buyer following the largest ever arts crowdfunding campaign by the Art Fund. This programme draws on Jarman’s beautiful memoir, ‘Modern Nature’, to recreate one year in the dream life of his garden and the stark landscape that surrounds it. With love and thanks to Christina Petrie. ",
+    cover: "/images/DereckJarman.jpeg",
+    tag: "SPOKEN WORD",
   },
   {
-    slug: "the-return-of-the-king",
-    title: "The Return of the King",
+    slug: "time-is-away-a-very-cellular-song",
+    date: "05.11.2023",
+    country: "Berlin",
+    title: "Time Is Away - A Very Cellular Song",
     description:
-      "The Return of the King is the third and final volume of J. R. R. Tolkien's epic adventure The Lord of the Rings. It is preceded by The Fellowship of the Ring and The Two Towers.",
-    cover: "/images/the-return-of-the-king.png",
-    books: [
-      {
-        ordinal: "Book V",
-        title: "The War of the Ring",
-      },
-      {
-        ordinal: "Book VI",
-        title: "The End of the Third Age",
-      },
-    ],
-    color: "#202C2C",
+      "This month’s` programme is an exploded view of one of our favourite pieces of music, The Incredible String Band’s ‘A Very Cellular Song’. The track, from the band’s 1968 masterpiece The Hangman’s Beautiful Daughter, is the loose inspiration for an hour of amoebas, early music and the mid-century Edinburgh literary avant-garde. With contributions from the ISB, David Attenborough, David Monrow and the Pinder Family.  ",
+    cover: "/images/veryCellular.jpeg",
+    tag: "PSYCHEDELIC FOLK",
   },
 ];
 
-export const introduction =
-  "The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some time in the distant past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold.";
+export const introduction = "Some text about the station";
