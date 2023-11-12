@@ -6,20 +6,47 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import styles from "@/styles/mixes.module.css";
 
-export default function Movies() {
+export default function Mixes() {
   const router = useRouter();
   return (
     <>
-      <h1>List of Mixes</h1>
       <ul className={styles.mixes}>
-        {mixes.map(({ id, date, country, title, cover, tag, slug }) => (
+        {mixes.map(({ id, date, country, title, cover, tags, slug }) => (
           <li className={styles.mix} key={id}>
             <div className={styles.mixContent}>
-              <Image src={cover} alt={title} width={274} height={154} />
-              {date}
-              {country}
-              <Link href={`/mixes/${slug}`}>{title}</Link>
-              <div className={styles.mixTag}>{tag}</div>
+              <div className={styles.imageContainer}>
+                <Image src={cover} alt={title} width={312} height={205} />
+                <div className={styles.playButton}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <div className={styles.mixHeader}>
+                  <div className={styles.mixDate}>
+                    <div>{date}</div>
+                    <div>{country}</div>
+                  </div>
+
+                  <Link href={`/mixes/${slug}`}>{title}</Link>
+                </div>
+                <div className={styles.mixTags}>
+                  {tags.map((tag) => (
+                    <span key={tag} className={styles.mixTag}>
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </li>
         ))}

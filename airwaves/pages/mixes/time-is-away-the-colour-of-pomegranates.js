@@ -13,7 +13,6 @@ export default function Pomegranates() {
         <p>{mix.description}</p>
         <Image src={mix.cover} alt={mix.title} width={274} height={154} />
       </div>
-      <Footer />
     </>
   );
 }

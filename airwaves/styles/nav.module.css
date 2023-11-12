@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  font-size: 14px;
+}
+
+.nav li {
+  margin-right: 10px;
+}
+
+.nav li a {
+  margin-right: 10px;
+  text-decoration: none;
+}
