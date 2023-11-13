@@ -10,7 +10,7 @@
 
 .mix {
   width: calc(20% - 30px);
-  margin-bottom: 20px;
+
   box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@
 
 .imageContainer img {
   width: 100%;
-  height: ;
+
   object-fit: cover; /* Use object-fit to maintain aspect ratio */
 }
 

@@ -14,7 +14,11 @@
 //   );
 // }
 
-export default function Footer({ selectedTrack }) {
+import { useSelectedTrack } from "@/context/SelectedTrackContext";
+
+export default function Footer() {
+  const { selectedTrack } = useSelectedTrack();
+
   return (
     <footer>
       {selectedTrack && (
