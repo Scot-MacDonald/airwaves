@@ -152,7 +152,7 @@ export default function Mixes() {
         "Towards the end of his life, visionary artist, filmmaker and activist Derek Jarman moved to Dungeness in Kent. There, on the shingle, around his small fisherman’s cottage, he created an iconic garden which has become a potent symbol of his legacy. This month Prospect Cottage and its garden were saved from a private buyer following the largest ever arts crowdfunding campaign by the Art Fund. This programme draws on Jarman’s beautiful memoir, ‘Modern Nature’, to recreate one year in the dream life of his garden and the stark landscape that surrounds it. With love and thanks to Christina Petrie. ",
       cover: "/images/DereckJarman.jpeg",
       trackUrl: "https://soundcloud.com/inis-eto/time-is-away-iniseto",
-      tags: ["AMBIENT", "FOLK"],
+      tags: ["AMBIENT", "techno"],
     },
     {
       slug: "ok-williams",

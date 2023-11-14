@@ -161,3 +161,9 @@
 .playButton svg {
   fill: white;
 }
+
+.mixTitle {
+  color: blue; /* or any other styling for a link */
+  text-decoration: underline;
+  cursor: pointer;
+}
