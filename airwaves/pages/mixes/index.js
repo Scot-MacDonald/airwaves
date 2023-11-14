@@ -144,7 +144,8 @@ export default function Mixes() {
             <li className={styles.mix} key={id}>
               <div className={styles.mixContent}>
                 <div className={styles.imageContainer}>
-                  <Image src={cover} alt={title} width={312} height={205} />
+                  <Image src={cover} alt={title} />
+                  {/* width={312} height={205} */}
                   <div
                     className={styles.playButton}
                     onClick={() => handlePlayClick(trackUrl)}

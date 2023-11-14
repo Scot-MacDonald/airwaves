@@ -133,7 +133,10 @@
 .imageContainer:hover img {
   filter: brightness(30%); /* Adjust the brightness to your preference */
 }
-
+.red-filter {
+  filter: grayscale(0%) sepia(100%) saturate(10000%) hue-rotate(0deg)
+    brightness(100%) contrast(100%);
+}
 .playButton {
   position: absolute;
   top: 50%;

@@ -19,7 +19,7 @@ export default function Nav() {
           <Link href="/mixes">EVENTS</Link>
         </li>
         <li>
-          <Link href="/mixes">NEWS</Link>
+          <Link href="/login">LOGIN</Link>
         </li>
       </ul>
     </>

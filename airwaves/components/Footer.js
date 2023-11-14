@@ -24,7 +24,7 @@ export default function Footer() {
       {selectedTrack && (
         <iframe
           width="100%"
-          height="100px"
+          height="100%"
           scrolling="no"
           frameBorder="no"
           allow="autoplay"
