@@ -63,7 +63,7 @@ export default function Mixes() {
         "This episode is inspired by the visionary world of Armenian filmmaker Sergei Parajanov. It draws on his 1969 masterpiece Sayat Nova, also known as The Colour of Pomegranates, a dreamlike poetic reimaginig of the life of the title character, an 18th-century poet and troubadour. ",
       cover: "/images/pomegranates.png",
       trackUrl: "https://soundcloud.com/inis-eto/time-is-away-iniseto",
-      tags: ["AMBIENT", "FOLK"],
+      tags: ["AMBIENT", "TECHNO"],
     },
     {
       slug: "time-is-away-derek-jarman",
@@ -75,7 +75,7 @@ export default function Mixes() {
       cover: "/images/DereckJarman.jpeg",
       trackUrl:
         "https://soundcloud.com/nts-latest/time-is-away-the-colour-of-pomegranates-180520",
-      tags: ["AMBIENT", "FOLK"],
+      tags: ["DRONE", "FOLK"],
     },
     {
       slug: "time-is-away-derek-jarman",

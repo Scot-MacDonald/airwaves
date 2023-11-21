@@ -163,7 +163,7 @@
 }
 
 .mixTitle {
-  color: blue; /* or any other styling for a link */
-  text-decoration: underline;
+  color: white; /* or any other styling for a link */
+  /* text-decoration: underline; */
   cursor: pointer;
 }
