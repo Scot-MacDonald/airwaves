@@ -21,6 +21,11 @@ export default function Nav() {
         <li>
           <Link href="/login">LOGIN</Link>
         </li>
+        <input
+          className={styles.search}
+          type="search"
+          placeholder="Search..."
+        ></input>
       </ul>
     </>
   );
