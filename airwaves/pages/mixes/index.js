@@ -35,12 +35,12 @@ const Mixes = ({ tag }) => {
                 </div>
                 <div>
                   <div className={styles.mixHeader}>
-                    <div className={styles.mixDate}>
-                      <div>{date}</div>
-                      <div>{country}</div>
-                    </div>
-
                     <Link href={`/mixes/${slug}`}>
+                      <div className={styles.mixDate}>
+                        <div>{date}</div>
+                        <div>{country}</div>
+                      </div>
+
                       <div className={styles.mixTitle}>{title}</div>
                     </Link>
                   </div>

@@ -77,9 +77,9 @@
 /* Existing styles ... */
 
 /* ... (rest of the styles remain the same) */
-.mixHeader {
+/* .mixHeader {
   padding-bottom: 80px;
-}
+} */
 .mixTags {
   font-size: 12px;
   display: flex;
@@ -166,4 +166,23 @@
   color: white; /* or any other styling for a link */
   /* text-decoration: underline; */
   cursor: pointer;
+}
+
+.mixHeader {
+  margin-bottom: 80px;
+  transition: background-color 0.3s ease;
+}
+
+.mixHeader:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer; /* Optional: Change cursor on hover */
+}
+
+.mixHeader:hover .mixDate {
+  color: black;
+}
+
+.mixHeader:hover .mixTitle {
+  color: black;
 }
